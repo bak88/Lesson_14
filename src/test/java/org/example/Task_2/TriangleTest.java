@@ -9,7 +9,7 @@ public class TriangleTest {
     public void testGetArea() {
         Triangle triangle = new Triangle(10, 5);
         double area = triangle.getAreaTriangular();
-        Assert.assertEquals(area, 25.0);
+        Assert.assertEquals(area, 25);
     }
 
     @Test
